@@ -48,17 +48,19 @@ tag2:   sw      $8, 73($0)      # $8(1) -> M[73 + $0(0) = 73] Test #14 - beq
         addi    $8, $8, 5       # $8(1) = $8(1) + 5 = 6 EXPTECTED TO SKIP
 tag3:   sw      $8, 74($0)      # $8(1) -> M[74 + $0(0) = 74] Test $15 - j
 
-        addi    $9, $0, 0       # $9(1) = $0(0) + 0 = 0
         jal     tag4            # goto tag4
-        addi    $8, $8, 5       # $8(1) = $8(1) + 5 = 6 EXPTECTED TO SKIP ON FIRST RUNTHROUGH
-tag4:   sw      $8, 75($9)      # $8(1) -> M[75 + $9(0) = 75] and $8(6) -> M[75 + $9(1) = 76] Test #16 - jal and jr
-        beq     $8, 6, tag5     # if $8(6) == 6 goto tag5
-        addi    $9, $0, 1       # $9(0) = $0(0) + 1 = 1
-        jr      $31             # goto $31
+        addi    $8, $8, 5       # $8(1) = $8(1) + 5 = 6 EXPTECTED TO SKIP
+tag4:   sw      $8, 75($0)      # $8(1) -> M[75 + $0(0) = 75] Test #16 - jal
+        sw      $31, 76($0)     # $31() -> M[76 + $0(0) = 76] Test #17 - jal
+        addi    $10, $0, tag5   # $10(11) = $0(0) + =
+        jr      $10             # goto $10
+        addi    $8, $8, -5      # $8(6) = $8(6) - 5 = 1 EXPECTED TO SKIP
 
 tag5:   bNal    $8, tag6        # if $8(6) is negative, goto tag6
-        addi    $8, $0, -5      # $8(6) = $0(0) - 5 = -5
-tag6:   sw      $8, 77($0)      # $8(-5) -> M[77 + $0(0) = 77] Test #17 - bNal
+        addi    $8, $8, -7      # $8(6) = $8(6) - 7 = -1
+tag6:   sw      $8, 77($0)      # $8(-1) -> M[77 + $0(0) = 77] Test #18 - bNal and jr
+        sw      $31, 78($0)     # $31() -> M[78 + $0(0) = 78] Test #19 - bNal
         bNal    $8, tag7        # if $8(-5) is negative, goto tag7
         addi    $8, $0, 5       # $8(6) = $0(0) - 5 = 5 EXPECTED TO SKIP
-tag7:   sw      $8, 78($0)      # $8(-5) -> M[78 + $0(0) = 78] Test #18 - bNal
+tag7:   sw      $8, 79($0)      # $8(-1) -> M[79 + $0(0) = 79] Test #20 - bNal
+        sw      $31, 80($0)     # $31() -> M[80 + $0(0) = 80] Test #21 - bNal
