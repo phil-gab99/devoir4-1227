@@ -8,17 +8,17 @@ entity maindec is -- main control decoder
 			alusrc, regdst: out STD_LOGIC_VECTOR(1 downto 0);
 			regwrite: out STD_LOGIC;
 			jump: out STD_LOGIC_VECTOR(1 downto 0);
-			aluop: out STD_LOGIC_VECTOR (1 downto 0));
+			aluop: out STD_LOGIC_VECTOR (2 downto 0));
 end;
 
 architecture behave of maindec is
-	signal controls: STD_LOGIC_VECTOR(8 downto 0);
+	signal controls: STD_LOGIC_VECTOR(14 downto 0);
 begin
 process(op) begin
 	case op is
 		when "000000" => 
 			if funct = "001000" then	-- jr
-				controls <= "000000000010000"
+				controls <= "000000000010000";
 			else						-- Rtype
 				controls <= "101000000000101";
 			end if;
@@ -39,7 +39,7 @@ end process;
 	regdst <= controls(13 downto 12);
 	alusrc <= controls(11 downto 10);
 	branch <= controls(9);
-	branchneg <= controls(8)
+	branchneg <= controls(8);
 	memwrite <= controls(7);
 	memtoreg <= controls(6 downto 5);
 	jump <= controls(4 downto 3);

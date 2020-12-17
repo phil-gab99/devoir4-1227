@@ -23,7 +23,7 @@ architecture struct of proc_mips is
 	end component;
 	component datapath
 		port (clk, reset: in STD_LOGIC;
-				memtoreg: in STD_LOGIC_VECTOR(1 downto 0)
+				memtoreg: in STD_LOGIC_VECTOR(1 downto 0);
 				pcsrc: in STD_LOGIC;
 				alusrc, regdst: in STD_LOGIC_VECTOR(1 downto 0);
 				regwrite: in STD_LOGIC;
