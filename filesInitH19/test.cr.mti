@@ -1,0 +1,152 @@
+{C:/Users/pgabr/Google Drive/Computer Science/Semester 2/Architecture des ordinateurs 1/Devoirs/Devoir 4/filesInitH19/devoir4-1227/filesInitH19/zeroext.vhd} {1 {vcom -work work -2002 -explicit {C:/Users/pgabr/Google Drive/Computer Science/Semester 2/Architecture des ordinateurs 1/Devoirs/Devoir 4/filesInitH19/devoir4-1227/filesInitH19/zeroext.vhd}
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity zeroext
+-- Compiling architecture behave of zeroext
+
+} {} {}} {C:/Users/pgabr/Google Drive/Computer Science/Semester 2/Architecture des ordinateurs 1/Devoirs/Devoir 4/filesInitH19/devoir4-1227/filesInitH19/sl2.vhd} {1 {vcom -work work -2002 -explicit {C:/Users/pgabr/Google Drive/Computer Science/Semester 2/Architecture des ordinateurs 1/Devoirs/Devoir 4/filesInitH19/devoir4-1227/filesInitH19/sl2.vhd}
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity sl2
+-- Compiling architecture behave of sl2
+
+} {} {}} {C:/Users/pgabr/Google Drive/Computer Science/Semester 2/Architecture des ordinateurs 1/Devoirs/Devoir 4/filesInitH19/devoir4-1227/filesInitH19/maindec.vhd} {1 {vcom -work work -2002 -explicit {C:/Users/pgabr/Google Drive/Computer Science/Semester 2/Architecture des ordinateurs 1/Devoirs/Devoir 4/filesInitH19/devoir4-1227/filesInitH19/maindec.vhd}
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity maindec
+-- Compiling architecture behave of maindec
+
+} {} {}} {C:/Users/pgabr/Google Drive/Computer Science/Semester 2/Architecture des ordinateurs 1/Devoirs/Devoir 4/filesInitH19/devoir4-1227/filesInitH19/mips.vhd} {1 {vcom -work work -2002 -explicit {C:/Users/pgabr/Google Drive/Computer Science/Semester 2/Architecture des ordinateurs 1/Devoirs/Devoir 4/filesInitH19/devoir4-1227/filesInitH19/mips.vhd}
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling entity mips
+-- Compiling architecture test of mips
+
+} {} {}} {C:/Users/pgabr/Google Drive/Computer Science/Semester 2/Architecture des ordinateurs 1/Devoirs/Devoir 4/filesInitH19/devoir4-1227/filesInitH19/alu.vhd} {1 {vcom -work work -2002 -explicit {C:/Users/pgabr/Google Drive/Computer Science/Semester 2/Architecture des ordinateurs 1/Devoirs/Devoir 4/filesInitH19/devoir4-1227/filesInitH19/alu.vhd}
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling entity alu
+-- Compiling architecture behave of alu
+
+} {} {}} {C:/Users/pgabr/Google Drive/Computer Science/Semester 2/Architecture des ordinateurs 1/Devoirs/Devoir 4/filesInitH19/devoir4-1227/filesInitH19/flopr.vhd} {1 {vcom -work work -2002 -explicit {C:/Users/pgabr/Google Drive/Computer Science/Semester 2/Architecture des ordinateurs 1/Devoirs/Devoir 4/filesInitH19/devoir4-1227/filesInitH19/flopr.vhd}
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Compiling entity flopr
+-- Compiling architecture asynchronous of flopr
+
+} {} {}} {C:/Users/pgabr/Google Drive/Computer Science/Semester 2/Architecture des ordinateurs 1/Devoirs/Devoir 4/filesInitH19/devoir4-1227/filesInitH19/controller.vhd} {1 {vcom -work work -2002 -explicit {C:/Users/pgabr/Google Drive/Computer Science/Semester 2/Architecture des ordinateurs 1/Devoirs/Devoir 4/filesInitH19/devoir4-1227/filesInitH19/controller.vhd}
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity controller
+-- Compiling architecture struct of controller
+
+} {} {}} {C:/Users/pgabr/Google Drive/Computer Science/Semester 2/Architecture des ordinateurs 1/Devoirs/Devoir 4/filesInitH19/devoir4-1227/filesInitH19/mux2.vhd} {1 {vcom -work work -2002 -explicit {C:/Users/pgabr/Google Drive/Computer Science/Semester 2/Architecture des ordinateurs 1/Devoirs/Devoir 4/filesInitH19/devoir4-1227/filesInitH19/mux2.vhd}
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity mux2
+-- Compiling architecture behave of mux2
+
+} {} {}} {C:/Users/pgabr/Google Drive/Computer Science/Semester 2/Architecture des ordinateurs 1/Devoirs/Devoir 4/filesInitH19/devoir4-1227/filesInitH19/regfile.vhd} {1 {vcom -work work -2002 -explicit {C:/Users/pgabr/Google Drive/Computer Science/Semester 2/Architecture des ordinateurs 1/Devoirs/Devoir 4/filesInitH19/devoir4-1227/filesInitH19/regfile.vhd}
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling entity regfile
+-- Compiling architecture behave of regfile
+
+} {} {}} {C:/Users/pgabr/Google Drive/Computer Science/Semester 2/Architecture des ordinateurs 1/Devoirs/Devoir 4/filesInitH19/devoir4-1227/filesInitH19/aludec.vhd} {1 {vcom -work work -2002 -explicit {C:/Users/pgabr/Google Drive/Computer Science/Semester 2/Architecture des ordinateurs 1/Devoirs/Devoir 4/filesInitH19/devoir4-1227/filesInitH19/aludec.vhd}
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity aludec
+-- Compiling architecture behave of aludec
+
+} {} {}} {C:/Users/pgabr/Google Drive/Computer Science/Semester 2/Architecture des ordinateurs 1/Devoirs/Devoir 4/filesInitH19/devoir4-1227/filesInitH19/mux4.vhd} {1 {vcom -work work -2002 -explicit {C:/Users/pgabr/Google Drive/Computer Science/Semester 2/Architecture des ordinateurs 1/Devoirs/Devoir 4/filesInitH19/devoir4-1227/filesInitH19/mux4.vhd}
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity mux4
+-- Compiling architecture struct of mux4
+
+} {} {}} {C:/Users/pgabr/Google Drive/Computer Science/Semester 2/Architecture des ordinateurs 1/Devoirs/Devoir 4/filesInitH19/devoir4-1227/filesInitH19/datapath.vhd} {1 {vcom -work work -2002 -explicit {C:/Users/pgabr/Google Drive/Computer Science/Semester 2/Architecture des ordinateurs 1/Devoirs/Devoir 4/filesInitH19/devoir4-1227/filesInitH19/datapath.vhd}
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Compiling entity datapath
+-- Compiling architecture struct of datapath
+
+} {} {}} {C:/Users/pgabr/Google Drive/Computer Science/Semester 2/Architecture des ordinateurs 1/Devoirs/Devoir 4/filesInitH19/devoir4-1227/filesInitH19/testbench.vhd} {1 {vcom -work work -2002 -explicit {C:/Users/pgabr/Google Drive/Computer Science/Semester 2/Architecture des ordinateurs 1/Devoirs/Devoir 4/filesInitH19/devoir4-1227/filesInitH19/testbench.vhd}
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling entity testbench
+-- Compiling architecture test of testbench
+
+} {} {}} {C:/Users/pgabr/Google Drive/Computer Science/Semester 2/Architecture des ordinateurs 1/Devoirs/Devoir 4/filesInitH19/devoir4-1227/filesInitH19/adder.vhd} {1 {vcom -work work -2002 -explicit {C:/Users/pgabr/Google Drive/Computer Science/Semester 2/Architecture des ordinateurs 1/Devoirs/Devoir 4/filesInitH19/devoir4-1227/filesInitH19/adder.vhd}
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling entity adder
+-- Compiling architecture behave of adder
+
+} {} {}} {C:/Users/pgabr/Google Drive/Computer Science/Semester 2/Architecture des ordinateurs 1/Devoirs/Devoir 4/filesInitH19/devoir4-1227/filesInitH19/signext.vhd} {1 {vcom -work work -2002 -explicit {C:/Users/pgabr/Google Drive/Computer Science/Semester 2/Architecture des ordinateurs 1/Devoirs/Devoir 4/filesInitH19/devoir4-1227/filesInitH19/signext.vhd}
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity signext
+-- Compiling architecture behave of signext
+
+} {} {}} {C:/Users/pgabr/Google Drive/Computer Science/Semester 2/Architecture des ordinateurs 1/Devoirs/Devoir 4/filesInitH19/devoir4-1227/filesInitH19/dmem.vhd} {1 {vcom -work work -2002 -explicit {C:/Users/pgabr/Google Drive/Computer Science/Semester 2/Architecture des ordinateurs 1/Devoirs/Devoir 4/filesInitH19/devoir4-1227/filesInitH19/dmem.vhd}
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling entity dmem
+-- Compiling architecture behave of dmem
+
+} {} {}} {C:/Users/pgabr/Google Drive/Computer Science/Semester 2/Architecture des ordinateurs 1/Devoirs/Devoir 4/filesInitH19/devoir4-1227/filesInitH19/proc_mips.vhd} {1 {vcom -work work -2002 -explicit {C:/Users/pgabr/Google Drive/Computer Science/Semester 2/Architecture des ordinateurs 1/Devoirs/Devoir 4/filesInitH19/devoir4-1227/filesInitH19/proc_mips.vhd}
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity proc_mips
+-- Compiling architecture struct of proc_mips
+
+} {} {}}
