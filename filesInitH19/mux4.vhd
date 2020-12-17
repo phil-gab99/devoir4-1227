@@ -17,7 +17,7 @@ architecture struct of mux4 is
     end component; 
     signal low, hi: STD_LOGIC_VECTOR(width-1 downto 0);
 begin
-    lowmux: mux2 generic map (width) port map(d0, d1, s(0), low);
-    himux: mux2 generic map (width) port map(d2, d3, s(0), hi);
-    outmux: mux2 generic map (width) port map(low, hi, s(1), y);
+    lowmux: mux2 generic map(width) port map(d0, d1, s(0), low);
+    himux: mux2 generic map(width) port map(d2, d3, s(0), hi);
+    outmux: mux2 generic map(width) port map(low, hi, s(1), y);
 end;

@@ -20,6 +20,7 @@ architecture struct of datapath is
 	component alu
 		port(	a, b: in STD_LOGIC_VECTOR(31 downto 0);
 				f: in STD_LOGIC_VECTOR (5 downto 0);
+				shamt: in STD_LOGIC_VECTOR (4 downto 0);
 				z, o, n : out STD_LOGIC;
 				y: buffer STD_LOGIC_VECTOR(31 downto 0));
 	end component;
@@ -76,12 +77,12 @@ begin
 	pcbrmux: mux2 generic map(32) port map(pcplus4, pcbranch, pcsrc, pcnextbr);
 	pcmux: mux4 generic map(32) port map(pcnextbr, pcjump, srca, X"00000000", jump, pcnext);
 -- register file logic
+	wrmux: mux4 generic map(5) port map(instr(20 downto 16), instr(15 downto 11), "11111", "00000", regdst, writereg);
 	rf: regfile port map(clk, regwrite, instr(25 downto 21),instr(20 downto 16), writereg, result, srca, writedata);
-	wrmux: mux4 generic map(5) port map(instr(20 downto 16), instr(15 downto 11), X"0000001f", X"00000000", regdst, writereg);
 	resmux: mux4 generic map(32) port map(aluout, readdata, pcplus4, X"00000000", memtoreg, result);
 	se: signext port map(instr(15 downto 0), signimm);
 	ze: zeroext port map(instr(15 downto 0), zeroimm);
 -- ALU logic
 	srcbmux: mux4 generic map (32) port map(writedata, signimm, zeroimm, X"00000000", alusrc, srcb);
-	mainalu: alu port map(srca, srcb, alucontrol, zero, overflow, neg, aluout);
+	mainalu: alu port map(srca, srcb, alucontrol, instr(10 downto 6), zero, overflow, neg, aluout);
 end;
