@@ -65,17 +65,18 @@ architecture struct of datapath is
 	signal writereg: STD_LOGIC_VECTOR (4 downto 0);
 	signal pcjump, pcnext, pcnextbr, pcplus4, pcbranch: STD_LOGIC_VECTOR (31 downto 0);
 	signal signimm, signimmsh, zeroimm: STD_LOGIC_VECTOR (31 downto 0);
-	signal srca, srcb, result: STD_LOGIC_VECTOR (31 downto 0);
+	signal srca, srcb, srcash, result: STD_LOGIC_VECTOR (31 downto 0);
 	
 begin
 -- next PC logic
+    pcjump <= pcplus4 (31 downto 28) & instr (25 downto 0) & "00";
 	pcreg: flopr generic map(32) port map(clk, reset, pcnext, pc);
 	pcadd1: adder port map(pc, X"00000004", pcplus4);
-    pcjump <= pcplus4 (31 downto 28) & instr (25 downto 0) & "00";
 	immsh: sl2 port map(signimm, signimmsh);
 	pcadd2: adder port map(pcplus4, signimmsh, pcbranch);
 	pcbrmux: mux2 generic map(32) port map(pcplus4, pcbranch, pcsrc, pcnextbr);
-	pcmux: mux4 generic map(32) port map(pcnextbr, pcjump, srca, X"00000000", jump, pcnext);
+    pcsrca: sl2 port map(srca, srcash);
+	pcmux: mux4 generic map(32) port map(pcnextbr, pcjump, srcash, X"00000000", jump, pcnext);
 -- register file logic
 	wrmux: mux4 generic map(5) port map(instr(20 downto 16), instr(15 downto 11), "11111", "00000", regdst, writereg);
 	rf: regfile port map(clk, regwrite, instr(25 downto 21),instr(20 downto 16), writereg, result, srca, writedata);

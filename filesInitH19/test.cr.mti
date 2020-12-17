@@ -1,4 +1,14 @@
-{C:/Users/pgabr/Google Drive/Computer Science/Semester 2/Architecture des ordinateurs 1/Devoirs/Devoir 4/filesInitH19/devoir4-1227/filesInitH19/maindec.vhd} {1 {vcom -work work -2002 -explicit {C:/Users/pgabr/Google Drive/Computer Science/Semester 2/Architecture des ordinateurs 1/Devoirs/Devoir 4/filesInitH19/devoir4-1227/filesInitH19/maindec.vhd}
+{C:/Users/pgabr/Google Drive/Computer Science/Semester 2/Architecture des ordinateurs 1/Devoirs/Devoir 4/filesInitH19/devoir4-1227/filesInitH19/mips.vhd} {1 {vcom -work work -2002 -explicit {C:\Users\pgabr\Google Drive\Computer Science\Semester 2\Architecture des ordinateurs 1\Devoirs\Devoir 4\filesInitH19\devoir4-1227\filesInitH19\mips.vhd}
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling entity mips
+-- Compiling architecture test of mips
+
+} {} {}} {C:/Users/pgabr/Google Drive/Computer Science/Semester 2/Architecture des ordinateurs 1/Devoirs/Devoir 4/filesInitH19/devoir4-1227/filesInitH19/maindec.vhd} {1 {vcom -work work -2002 -explicit {C:/Users/pgabr/Google Drive/Computer Science/Semester 2/Architecture des ordinateurs 1/Devoirs/Devoir 4/filesInitH19/devoir4-1227/filesInitH19/maindec.vhd}
 Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
 -- Loading package STANDARD
 -- Loading package TEXTIO
@@ -21,16 +31,6 @@ Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
 -- Loading package std_logic_1164
 -- Compiling entity sl2
 -- Compiling architecture behave of sl2
-
-} {} {}} {C:/Users/pgabr/Google Drive/Computer Science/Semester 2/Architecture des ordinateurs 1/Devoirs/Devoir 4/filesInitH19/devoir4-1227/filesInitH19/mips.vhd} {1 {vcom -work work -2002 -explicit {C:/Users/pgabr/Google Drive/Computer Science/Semester 2/Architecture des ordinateurs 1/Devoirs/Devoir 4/filesInitH19/devoir4-1227/filesInitH19/mips.vhd}
-Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
--- Loading package STANDARD
--- Loading package TEXTIO
--- Loading package std_logic_1164
--- Loading package std_logic_arith
--- Loading package STD_LOGIC_UNSIGNED
--- Compiling entity mips
--- Compiling architecture test of mips
 
 } {} {}} {C:/Users/pgabr/Google Drive/Computer Science/Semester 2/Architecture des ordinateurs 1/Devoirs/Devoir 4/filesInitH19/devoir4-1227/filesInitH19/alu.vhd} {1 {vcom -work work -2002 -explicit {C:/Users/pgabr/Google Drive/Computer Science/Semester 2/Architecture des ordinateurs 1/Devoirs/Devoir 4/filesInitH19/devoir4-1227/filesInitH19/alu.vhd}
 Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
@@ -102,16 +102,6 @@ Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
 -- Loading package std_logic_arith
 -- Compiling entity datapath
 -- Compiling architecture struct of datapath
-
-} {} {}} {C:/Users/pgabr/Google Drive/Computer Science/Semester 2/Architecture des ordinateurs 1/Devoirs/Devoir 4/filesInitH19/devoir4-1227/filesInitH19/testbench.vhd} {1 {vcom -work work -2002 -explicit {C:/Users/pgabr/Google Drive/Computer Science/Semester 2/Architecture des ordinateurs 1/Devoirs/Devoir 4/filesInitH19/devoir4-1227/filesInitH19/testbench.vhd}
-Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
--- Loading package STANDARD
--- Loading package TEXTIO
--- Loading package std_logic_1164
--- Loading package std_logic_arith
--- Loading package STD_LOGIC_UNSIGNED
--- Compiling entity testbench
--- Compiling architecture test of testbench
 
 } {} {}} {C:/Users/pgabr/Google Drive/Computer Science/Semester 2/Architecture des ordinateurs 1/Devoirs/Devoir 4/filesInitH19/devoir4-1227/filesInitH19/adder.vhd} {1 {vcom -work work -2002 -explicit {C:/Users/pgabr/Google Drive/Computer Science/Semester 2/Architecture des ordinateurs 1/Devoirs/Devoir 4/filesInitH19/devoir4-1227/filesInitH19/adder.vhd}
 Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012

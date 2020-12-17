@@ -4,7 +4,7 @@ use STD.TEXTIO.all;
 use IEEE.STD_LOGIC_UNSIGNED.all; use IEEE.STD_LOGIC_ARITH.all;
 
 entity imem is -- instruction memory, TP4 H19
-	port (	a: 	in STD_LOGIC_VECTOR (5 downto 0);
+	port (	a: 	in STD_LOGIC_VECTOR (7 downto 2);
 			rd: out STD_LOGIC_VECTOR (31 downto 0));
 end;
 
@@ -68,19 +68,19 @@ begin
         mem(36) := X"0c000026"; --        jal     tag4            # goto tag4
         mem(37) := X"21080005"; --        addi    $8, $8, 5       # $8(1) = $8(1) + 5 = 6 EXPTECTED TO SKIP
         mem(38) := X"ac08004b"; -- tag4:  sw      $8, 75($0)      # $8(1) -> M[75 + $0(0) = 75] Test #16 - jal
-        mem(39) := X"ac1f004c"; --        sw      $31, 76($0)     # $31(37) -> M[76 + $0(0) = 76] Test #17 - jal
-        mem(40) := X"200a0067"; --        addi    $10, $0, 43     # $10(11) = $0 + 43 = 43
+        mem(39) := X"ac1f004c"; --        sw      $31, 76($0)     # $31(148) -> M[76 + $0(0) = 76] Test #17 - jal
+        mem(40) := X"200a002b"; --        addi    $10, $0, 43     # $10(11) = $0 + 43 = 43
         mem(41) := X"01400008"; --        jr      $10             # goto $10
-        mem(42) := X"2108fffb"; --        addi    $8, $8, -5      # $8(6) = $8(6) - 5 = 1 EXPECTED TO SKIP
+        mem(42) := X"2108fffb"; --        addi    $8, $8, -5      # $8(1) = $8(1) - 5 = -4 EXPECTED TO SKIP
         
-        mem(43) := X"91000001"; --        bNal    $8, tag5        # if $8(6) is negative, goto tag5
-        mem(44) := X"2108fff9"; --        addi    $8, $8, -7      # $8(6) = $8(6) - 7 = -1
-        mem(45) := X"ac08004d"; -- tag5:  sw      $8, 77($0)      # $8(-1) -> M[77 + $0(0) = 77] Test #18 - bNal and jr
-        mem(46) := X"ac1f004e"; --        sw      $31, 78($0)     # $31(37) -> M[78 + $0(0) = 78] Test #19 - bNal
-        mem(47) := X"91000001"; --        bNal    $8, tag6        # if $8(-1) is negative, goto tag6
-        mem(48) := X"20080005"; --        addi    $8, $0, 5       # $8(6) = $0(0) - 5 = 5 EXPECTED TO SKIP
-        mem(49) := X"ac08004f"; -- tag6:  sw      $8, 79($0)      # $8(-1) -> M[79 + $0(0) = 79] Test #20 - bNal
-        mem(50) := X"ac1f0050"; --        sw      $31, 80($0)     # $31(48) -> M[80 + $0(0) = 80] Test #21 - bNal
+        mem(43) := X"91000001"; --        bNal    $8, tag5        # if $8(1) is negative, goto tag5
+        mem(44) := X"2108fff9"; --        addi    $8, $8, -7      # $8(1) = $8(1) - 7 = -6
+        mem(45) := X"ac08004d"; -- tag5:  sw      $8, 77($0)      # $8(-6) -> M[77 + $0(0) = 77] Test #18 - bNal and jr
+        mem(46) := X"ac1f004e"; --        sw      $31, 78($0)     # $31(148) -> M[78 + $0(0) = 78] Test #19 - bNal
+        mem(47) := X"91000001"; --        bNal    $8, tag6        # if $8(-6) is negative, goto tag6
+        mem(48) := X"20080005"; --        addi    $8, $0, 5       # $8(-6) = $0(0) + 5 = 5 EXPECTED TO SKIP
+        mem(49) := X"ac08004f"; -- tag6:  sw      $8, 79($0)      # $8(-6) -> M[79 + $0(0) = 79] Test #20 - bNal
+        mem(50) := X"ac1f0050"; --        sw      $31, 80($0)     # $31(192) -> M[80 + $0(0) = 80] Test #21 - bNal
 	-- read memory
 		rd <= mem(CONV_INTEGER(a));
 end process;

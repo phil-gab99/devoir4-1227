@@ -154,7 +154,7 @@ R13
 !s100 K]N_89;h;QkJnL@PRoJI70
 !i10b 1
 Edatapath
-Z33 w1608243203
+Z33 w1608246700
 R1
 R3
 R4
@@ -164,49 +164,49 @@ Z35 FC:/Users/pgabr/Google Drive/Computer Science/Semester 2/Architecture des or
 l0
 L4
 VDWl8z0J>Wg@N:?WLVMUgl0
-!s100 ?:2baTP<9S2K<b@G]jC?H3
 R8
 32
-!i10b 1
-Z36 !s108 1608243215.190000
+Z36 !s108 1608246712.130000
 Z37 !s90 -reportprogress|300|-work|work|-2002|-explicit|C:/Users/pgabr/Google Drive/Computer Science/Semester 2/Architecture des ordinateurs 1/Devoirs/Devoir 4/filesInitH19/devoir4-1227/filesInitH19/datapath.vhd|
 Z38 !s107 C:/Users/pgabr/Google Drive/Computer Science/Semester 2/Architecture des ordinateurs 1/Devoirs/Devoir 4/filesInitH19/devoir4-1227/filesInitH19/datapath.vhd|
 R12
 R13
+!s100 ?:2baTP<9S2K<b@G]jC?H3
+!i10b 1
 Astruct
 R1
 R3
 R4
-Z39 DEx4 work 8 datapath 0 22 DWl8z0J>Wg@N:?WLVMUgl0
+DEx4 work 8 datapath 0 22 DWl8z0J>Wg@N:?WLVMUgl0
 l70
 L19
-V@Qcm>R0TXDdRNhz6n;6662
-!s100 Eb74UTYCAYnciR@Y6;2>h0
+VhbSB;z:5gWdO:X?>O9j^M3
 R8
 32
-!i10b 1
 R36
 R37
 R38
 R12
 R13
+!s100 ;NdK6ahG3kXT:]^67e6XT0
+!i10b 1
 Edmem
-Z40 w1607209564
+Z39 w1607209564
 R1
 R2
 R3
 R4
 R5
-Z41 8C:/Users/pgabr/Google Drive/Computer Science/Semester 2/Architecture des ordinateurs 1/Devoirs/Devoir 4/filesInitH19/devoir4-1227/filesInitH19/dmem.vhd
-Z42 FC:/Users/pgabr/Google Drive/Computer Science/Semester 2/Architecture des ordinateurs 1/Devoirs/Devoir 4/filesInitH19/devoir4-1227/filesInitH19/dmem.vhd
+Z40 8C:/Users/pgabr/Google Drive/Computer Science/Semester 2/Architecture des ordinateurs 1/Devoirs/Devoir 4/filesInitH19/devoir4-1227/filesInitH19/dmem.vhd
+Z41 FC:/Users/pgabr/Google Drive/Computer Science/Semester 2/Architecture des ordinateurs 1/Devoirs/Devoir 4/filesInitH19/devoir4-1227/filesInitH19/dmem.vhd
 l0
 L5
 V_[Plmk9SoNG4MHRb3f:YJ3
 R8
 32
-Z43 !s108 1608239250.847000
-Z44 !s90 -reportprogress|300|-work|work|-2002|-explicit|C:/Users/pgabr/Google Drive/Computer Science/Semester 2/Architecture des ordinateurs 1/Devoirs/Devoir 4/filesInitH19/devoir4-1227/filesInitH19/dmem.vhd|
-Z45 !s107 C:/Users/pgabr/Google Drive/Computer Science/Semester 2/Architecture des ordinateurs 1/Devoirs/Devoir 4/filesInitH19/devoir4-1227/filesInitH19/dmem.vhd|
+Z42 !s108 1608239250.847000
+Z43 !s90 -reportprogress|300|-work|work|-2002|-explicit|C:/Users/pgabr/Google Drive/Computer Science/Semester 2/Architecture des ordinateurs 1/Devoirs/Devoir 4/filesInitH19/devoir4-1227/filesInitH19/dmem.vhd|
+Z44 !s107 C:/Users/pgabr/Google Drive/Computer Science/Semester 2/Architecture des ordinateurs 1/Devoirs/Devoir 4/filesInitH19/devoir4-1227/filesInitH19/dmem.vhd|
 R12
 R13
 !s100 <7hDN?5K8n^1e>9:iZF5T0
@@ -222,29 +222,29 @@ L11
 ValQVVTkDbmPAhZa42dF`f3
 R8
 32
+R42
 R43
 R44
-R45
 R12
 R13
 !s100 YJBFjnSVZX^CT9di9Z85I1
 !i10b 1
 Eflopr
-R40
+R39
 R1
 R3
 R4
 R5
-Z46 8C:/Users/pgabr/Google Drive/Computer Science/Semester 2/Architecture des ordinateurs 1/Devoirs/Devoir 4/filesInitH19/devoir4-1227/filesInitH19/flopr.vhd
-Z47 FC:/Users/pgabr/Google Drive/Computer Science/Semester 2/Architecture des ordinateurs 1/Devoirs/Devoir 4/filesInitH19/devoir4-1227/filesInitH19/flopr.vhd
+Z45 8C:/Users/pgabr/Google Drive/Computer Science/Semester 2/Architecture des ordinateurs 1/Devoirs/Devoir 4/filesInitH19/devoir4-1227/filesInitH19/flopr.vhd
+Z46 FC:/Users/pgabr/Google Drive/Computer Science/Semester 2/Architecture des ordinateurs 1/Devoirs/Devoir 4/filesInitH19/devoir4-1227/filesInitH19/flopr.vhd
 l0
 L4
 VU7n1LTgJI6`13nna8nO5`2
 R8
 32
-Z48 !s108 1608239250.966000
-Z49 !s90 -reportprogress|300|-work|work|-2002|-explicit|C:/Users/pgabr/Google Drive/Computer Science/Semester 2/Architecture des ordinateurs 1/Devoirs/Devoir 4/filesInitH19/devoir4-1227/filesInitH19/flopr.vhd|
-Z50 !s107 C:/Users/pgabr/Google Drive/Computer Science/Semester 2/Architecture des ordinateurs 1/Devoirs/Devoir 4/filesInitH19/devoir4-1227/filesInitH19/flopr.vhd|
+Z47 !s108 1608239250.966000
+Z48 !s90 -reportprogress|300|-work|work|-2002|-explicit|C:/Users/pgabr/Google Drive/Computer Science/Semester 2/Architecture des ordinateurs 1/Devoirs/Devoir 4/filesInitH19/devoir4-1227/filesInitH19/flopr.vhd|
+Z49 !s107 C:/Users/pgabr/Google Drive/Computer Science/Semester 2/Architecture des ordinateurs 1/Devoirs/Devoir 4/filesInitH19/devoir4-1227/filesInitH19/flopr.vhd|
 R12
 R13
 !s100 ZNMHL3>96S[G?B9=HB_YX3
@@ -259,67 +259,67 @@ L11
 VC?d[COlY6Ol48NmPDYeV70
 R8
 32
+R47
 R48
 R49
-R50
 R12
 R13
 !s100 YJddWX?59VJ]QNGNfe?VQ0
 !i10b 1
 Eimem
-Z51 w1608241532
+Z50 w1608247053
 R1
 R2
 R3
 R4
 R5
-Z52 8C:/Users/pgabr/Google Drive/Computer Science/Semester 2/Architecture des ordinateurs 1/Devoirs/Devoir 4/filesInitH19/devoir4-1227/filesInitH19/imem.vhd
-Z53 FC:/Users/pgabr/Google Drive/Computer Science/Semester 2/Architecture des ordinateurs 1/Devoirs/Devoir 4/filesInitH19/devoir4-1227/filesInitH19/imem.vhd
+Z51 8C:/Users/pgabr/Google Drive/Computer Science/Semester 2/Architecture des ordinateurs 1/Devoirs/Devoir 4/filesInitH19/devoir4-1227/filesInitH19/imem.vhd
+Z52 FC:/Users/pgabr/Google Drive/Computer Science/Semester 2/Architecture des ordinateurs 1/Devoirs/Devoir 4/filesInitH19/devoir4-1227/filesInitH19/imem.vhd
 l0
 L6
-VidYl>=89VbDDc:=M`D:BC2
+VhTLlgX3aJ8FnOd^SKOD@X1
 R8
 32
-Z54 !s108 1608241564.063000
-Z55 !s90 -reportprogress|300|-work|work|-2002|-explicit|C:/Users/pgabr/Google Drive/Computer Science/Semester 2/Architecture des ordinateurs 1/Devoirs/Devoir 4/filesInitH19/devoir4-1227/filesInitH19/imem.vhd|
-Z56 !s107 C:/Users/pgabr/Google Drive/Computer Science/Semester 2/Architecture des ordinateurs 1/Devoirs/Devoir 4/filesInitH19/devoir4-1227/filesInitH19/imem.vhd|
+Z53 !s108 1608247178.060000
+Z54 !s90 -reportprogress|300|-work|work|-2002|-explicit|C:/Users/pgabr/Google Drive/Computer Science/Semester 2/Architecture des ordinateurs 1/Devoirs/Devoir 4/filesInitH19/devoir4-1227/filesInitH19/imem.vhd|
+Z55 !s107 C:/Users/pgabr/Google Drive/Computer Science/Semester 2/Architecture des ordinateurs 1/Devoirs/Devoir 4/filesInitH19/devoir4-1227/filesInitH19/imem.vhd|
 R12
 R13
-!s100 Do>e0bJ67jh_YeOjh8imW2
+!s100 7:k<hb]CXa4U<U5M1Uho;0
 !i10b 1
 Abehave
 R1
 R2
 R3
 R4
-DEx4 work 4 imem 0 22 idYl>=89VbDDc:=M`D:BC2
+DEx4 work 4 imem 0 22 hTLlgX3aJ8FnOd^SKOD@X1
 l12
 L11
-V^c6C:`7ANAWIP;]hLj3jj1
+V2OCb;SJ2Q7HJ4IXHio3=[3
+!s100 YhPWbD<`K;49:ZE4Wi67:1
 R8
 32
+R53
 R54
 R55
-R56
 R12
 R13
-!s100 Pd]n0LoZD3Rb@DG6[?GMz2
 !i10b 1
 Emaindec
-Z57 w1608241310
+Z56 w1608241310
 R3
 R4
 R5
-Z58 8C:/Users/pgabr/Google Drive/Computer Science/Semester 2/Architecture des ordinateurs 1/Devoirs/Devoir 4/filesInitH19/devoir4-1227/filesInitH19/maindec.vhd
-Z59 FC:/Users/pgabr/Google Drive/Computer Science/Semester 2/Architecture des ordinateurs 1/Devoirs/Devoir 4/filesInitH19/devoir4-1227/filesInitH19/maindec.vhd
+Z57 8C:/Users/pgabr/Google Drive/Computer Science/Semester 2/Architecture des ordinateurs 1/Devoirs/Devoir 4/filesInitH19/devoir4-1227/filesInitH19/maindec.vhd
+Z58 FC:/Users/pgabr/Google Drive/Computer Science/Semester 2/Architecture des ordinateurs 1/Devoirs/Devoir 4/filesInitH19/devoir4-1227/filesInitH19/maindec.vhd
 l0
 L3
 VR4=?3Fc;CbJX9:9:hA1G62
 R8
 32
-Z60 !s108 1608241560.281000
-Z61 !s90 -reportprogress|300|-work|work|-2002|-explicit|C:/Users/pgabr/Google Drive/Computer Science/Semester 2/Architecture des ordinateurs 1/Devoirs/Devoir 4/filesInitH19/devoir4-1227/filesInitH19/maindec.vhd|
-Z62 !s107 C:/Users/pgabr/Google Drive/Computer Science/Semester 2/Architecture des ordinateurs 1/Devoirs/Devoir 4/filesInitH19/devoir4-1227/filesInitH19/maindec.vhd|
+Z59 !s108 1608241560.281000
+Z60 !s90 -reportprogress|300|-work|work|-2002|-explicit|C:/Users/pgabr/Google Drive/Computer Science/Semester 2/Architecture des ordinateurs 1/Devoirs/Devoir 4/filesInitH19/devoir4-1227/filesInitH19/maindec.vhd|
+Z61 !s107 C:/Users/pgabr/Google Drive/Computer Science/Semester 2/Architecture des ordinateurs 1/Devoirs/Devoir 4/filesInitH19/devoir4-1227/filesInitH19/maindec.vhd|
 R12
 R13
 !s100 oF<KoA2=d`S?IHS:I9N[72
@@ -333,30 +333,30 @@ L14
 VSAc]l?^a6PfC;_J`0l[7Q2
 R8
 32
+R59
 R60
 R61
-R62
 R12
 R13
 !s100 IQEGmCLEFEJd4f:Ggnf@30
 !i10b 1
 Emips
-R40
+Z62 w1608245257
 R1
 R2
 R3
 R4
 R5
-Z63 8C:/Users/pgabr/Google Drive/Computer Science/Semester 2/Architecture des ordinateurs 1/Devoirs/Devoir 4/filesInitH19/devoir4-1227/filesInitH19/mips.vhd
-Z64 FC:/Users/pgabr/Google Drive/Computer Science/Semester 2/Architecture des ordinateurs 1/Devoirs/Devoir 4/filesInitH19/devoir4-1227/filesInitH19/mips.vhd
+Z63 8C:\Users\pgabr\Google Drive\Computer Science\Semester 2\Architecture des ordinateurs 1\Devoirs\Devoir 4\filesInitH19\devoir4-1227\filesInitH19\mips.vhd
+Z64 FC:\Users\pgabr\Google Drive\Computer Science\Semester 2\Architecture des ordinateurs 1\Devoirs\Devoir 4\filesInitH19\devoir4-1227\filesInitH19\mips.vhd
 l0
 L4
 VQ@h5[24L=6JE:l0_nd0Gz0
 R8
 32
-Z65 !s108 1608239251.293000
-Z66 !s90 -reportprogress|300|-work|work|-2002|-explicit|C:/Users/pgabr/Google Drive/Computer Science/Semester 2/Architecture des ordinateurs 1/Devoirs/Devoir 4/filesInitH19/devoir4-1227/filesInitH19/mips.vhd|
-Z67 !s107 C:/Users/pgabr/Google Drive/Computer Science/Semester 2/Architecture des ordinateurs 1/Devoirs/Devoir 4/filesInitH19/devoir4-1227/filesInitH19/mips.vhd|
+Z65 !s108 1608245330.505000
+Z66 !s90 -reportprogress|300|-work|work|-2002|-explicit|C:\Users\pgabr\Google Drive\Computer Science\Semester 2\Architecture des ordinateurs 1\Devoirs\Devoir 4\filesInitH19\devoir4-1227\filesInitH19\mips.vhd|
+Z67 !s107 C:\Users\pgabr\Google Drive\Computer Science\Semester 2\Architecture des ordinateurs 1\Devoirs\Devoir 4\filesInitH19\devoir4-1227\filesInitH19\mips.vhd|
 R12
 R13
 !s100 n[gK8Sm`cCDHEz1Vf`UVM0
@@ -380,7 +380,7 @@ R13
 !s100 95PAM@UgBf<jB]ebAj5H>3
 !i10b 1
 Emux2
-R40
+R39
 R3
 R4
 R5
@@ -485,7 +485,7 @@ R13
 !s100 <;O7QNVPFAl;aX3g<GA`]3
 !i10b 1
 Eregfile
-R40
+R39
 R1
 R2
 R3
@@ -524,7 +524,7 @@ R13
 !s100 o<K1zfaVdT;6G;EIg4^Oh1
 !i10b 1
 Esignext
-R40
+R39
 R3
 R4
 R5
@@ -559,7 +559,7 @@ R13
 !s100 jI0@gVB_f[z5Z8C=mQ9[Y0
 !i10b 1
 Esl2
-R40
+R39
 R3
 R4
 R5
@@ -594,7 +594,7 @@ R13
 !s100 A6@<I2l:L5WiV6W2jhH5K3
 !i10b 1
 Etestbench
-Z98 w1608242274
+Z98 w1608247088
 R1
 R2
 R3
@@ -605,48 +605,48 @@ Z100 FC:/Users/pgabr/Google Drive/Computer Science/Semester 2/Architecture des o
 l0
 L4
 Vee@lKblzI@:J24Ea_^AHC1
+!s100 5bRQgXQPK9cS2cEUMbYAb2
 R8
 32
-Z101 !s108 1608242284.718000
+!i10b 1
+Z101 !s108 1608247178.181000
 Z102 !s90 -reportprogress|300|-work|work|-2002|-explicit|C:/Users/pgabr/Google Drive/Computer Science/Semester 2/Architecture des ordinateurs 1/Devoirs/Devoir 4/filesInitH19/devoir4-1227/filesInitH19/testbench.vhd|
 Z103 !s107 C:/Users/pgabr/Google Drive/Computer Science/Semester 2/Architecture des ordinateurs 1/Devoirs/Devoir 4/filesInitH19/devoir4-1227/filesInitH19/testbench.vhd|
 R12
 R13
-!s100 5bRQgXQPK9cS2cEUMbYAb2
-!i10b 1
 Atest
 R1
 R2
 R3
 R4
-DEx4 work 9 testbench 0 22 ee@lKblzI@:J24Ea_^AHC1
+Z104 DEx4 work 9 testbench 0 22 ee@lKblzI@:J24Ea_^AHC1
 l15
 L7
-Vc0dXS5WHS7>@FWmYLO<Vb0
+Z105 VLlXR0HOQm;j^DN_a?5Tg>1
+Z106 !s100 N0V_Xe=[bXgRNBAB6:?RM1
 R8
 32
+!i10b 1
 R101
 R102
 R103
 R12
 R13
-!s100 HlcM@[gDEY7WHbacg=XTD2
-!i10b 1
 Ezeroext
-Z104 w1607706123
+Z107 w1607706123
 R3
 R4
 R5
-Z105 8C:/Users/pgabr/Google Drive/Computer Science/Semester 2/Architecture des ordinateurs 1/Devoirs/Devoir 4/filesInitH19/devoir4-1227/filesInitH19/zeroext.vhd
-Z106 FC:/Users/pgabr/Google Drive/Computer Science/Semester 2/Architecture des ordinateurs 1/Devoirs/Devoir 4/filesInitH19/devoir4-1227/filesInitH19/zeroext.vhd
+Z108 8C:/Users/pgabr/Google Drive/Computer Science/Semester 2/Architecture des ordinateurs 1/Devoirs/Devoir 4/filesInitH19/devoir4-1227/filesInitH19/zeroext.vhd
+Z109 FC:/Users/pgabr/Google Drive/Computer Science/Semester 2/Architecture des ordinateurs 1/Devoirs/Devoir 4/filesInitH19/devoir4-1227/filesInitH19/zeroext.vhd
 l0
 L3
 V?od5U4]P;Z2YCaDaTRz;N1
 R8
 32
-Z107 !s108 1608239252.226000
-Z108 !s90 -reportprogress|300|-work|work|-2002|-explicit|C:/Users/pgabr/Google Drive/Computer Science/Semester 2/Architecture des ordinateurs 1/Devoirs/Devoir 4/filesInitH19/devoir4-1227/filesInitH19/zeroext.vhd|
-Z109 !s107 C:/Users/pgabr/Google Drive/Computer Science/Semester 2/Architecture des ordinateurs 1/Devoirs/Devoir 4/filesInitH19/devoir4-1227/filesInitH19/zeroext.vhd|
+Z110 !s108 1608239252.226000
+Z111 !s90 -reportprogress|300|-work|work|-2002|-explicit|C:/Users/pgabr/Google Drive/Computer Science/Semester 2/Architecture des ordinateurs 1/Devoirs/Devoir 4/filesInitH19/devoir4-1227/filesInitH19/zeroext.vhd|
+Z112 !s107 C:/Users/pgabr/Google Drive/Computer Science/Semester 2/Architecture des ordinateurs 1/Devoirs/Devoir 4/filesInitH19/devoir4-1227/filesInitH19/zeroext.vhd|
 R12
 R13
 !s100 7dEz9;=MB=7CA0CMg:4;l1
@@ -660,9 +660,9 @@ L8
 Vg__G?E?WiRhKn5FHEYB]J1
 R8
 32
-R107
-R108
-R109
+R110
+R111
+R112
 R12
 R13
 !s100 fbhK3UTOc`ioV79li3]SU3

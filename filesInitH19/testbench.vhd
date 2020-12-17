@@ -155,33 +155,33 @@ process (clk) begin
             end if;
             
             -- Test #18 - bNal and jr
-            when 77 => if(conv_integer(writedata) = -1) then
+            when 77 => if(conv_integer(writedata) = -6) then
                 report "test 18 réussi";
             else
                 report "test 18 échoué";
             end if;
             
             -- Test #19 - bNal
-            when 78 => if(conv_integer(writedata) = 37) then
+            when 78 => if(conv_integer(writedata) = 148) then
                 report "test 19 réussi";
             else
                 report "test 19 échoué";
             end if;
             
             -- Test #20 - bNal
-            when 79 => if(conv_integer(writedata) = -1) then
+            when 79 => if(conv_integer(writedata) = -6) then
                 report "test 20 réussi";
             else
                 report "test 20 échoué";
             end if;
             
             -- Test #21 - bNal
-            when 80 => if(conv_integer(writedata) = 48) then
+            when 80 => if(conv_integer(writedata) = 192) then
                 report "test 21 réussi";
             else
                 report "test 21 échoué";
             end if;
-	    when others => report "";
+	    when others => report "others";
 	  end case;       
 	end if;
 end process;
