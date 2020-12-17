@@ -148,7 +148,7 @@ process (clk) begin
             end if;
             
             -- Test #17 - jal
-            when 76 => if(conv_integer(writedata) = ) then -- TODO: figure out what value is
+            when 76 => if(conv_integer(writedata) = 37) then
                 report "test 17 réussi";
             else
                 report "test 17 échoué";
@@ -162,7 +162,7 @@ process (clk) begin
             end if;
             
             -- Test #19 - bNal
-            when 78 => if(conv_integer(writedata) = ) then -- TODO: figure out what value is
+            when 78 => if(conv_integer(writedata) = 37) then
                 report "test 19 réussi";
             else
                 report "test 19 échoué";
@@ -176,7 +176,7 @@ process (clk) begin
             end if;
             
             -- Test #21 - bNal
-            when 80 => if(conv_integer(writedata) = ) then -- TODO: figure out what value is
+            when 80 => if(conv_integer(writedata) = 48) then
                 report "test 21 réussi";
             else
                 report "test 21 échoué";
