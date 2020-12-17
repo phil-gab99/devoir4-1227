@@ -34,48 +34,153 @@ end process;
 -- autoverification
 process (clk) begin
 	if (clk'event and clk = '0' and memwrite = '1') then
-	  case conv_integer(dataadr) is
-	    when 80 => if(conv_integer(writedata) = 7) then
-			            report "test 1 r�ussi";
-	               else
-						report "test 1 echou�";
-	               end if;
-	    when 60 => if(conv_integer(writedata) = 7) then
-			            report "test 2 r�ussi";
-	               else
-						report "test 2 echou�";
-	               end if;
-	    when 70 => if(conv_integer(writedata) = 24) then
-						report "test 3 r�ussi";
-	               else
-						report "test 3 echou�";
-	               end if; 
-		when 72 => if(conv_integer(writedata) = 6) then
-			               report "test 4 r�ussi";
-	               else
-	                  report "test 4 echou�";
-	               end if;
-		when 74 => if(conv_integer(writedata) = 0) then
-			             report "test 5 r�ussi";
-	               else
-	                     report "test 5 echou�";
-	               end if;
-		when 84 => if(conv_integer(writedata) = 1) then
-			            report "test 6 r�ussi";
-	               else
-						report "test 6 echou�";
-	               end if;
-		  when 86 => if(conv_integer(writedata) = 1) then
-			            report "test 7 r�ussi";
-	               else
-						report "test 7 echou�";
-	               end if;
-           when 88 => if (conv_integer(writedata) = 4403) then --Test ori
-                    report "test 8 réussi";
-                else
-                    report "test 8 échoué";
-                end if;
-               
+        case conv_integer(dataadr) is
+            -- Test #1 - addi
+            when 60 => if(conv_integer(writedata) = 6) then
+                report "test 1 réussi";
+            else
+                report "test 1 échoué";
+            end if;
+            
+            -- Test #2 - addi and sw
+            when 61 => if(conv_integer(writedata) = 6) then
+                report "test 2 réussi";
+            else
+                report "test 2 échoué";
+            end if;
+            
+            -- Test #3 - add
+            when 62 => if(conv_integer(writedata) = 7) then
+                report "test 3 réussi";
+            else
+                report "test 3 échoué";
+            end if;
+            
+            -- Test #4 - and
+            when 63 => if(conv_integer(writedata) = 1) then
+                report "test 4 réussi";
+            else
+                report "test 4 échoué";
+            end if;
+            
+            -- Test #5 - nor
+            when 64 => if(conv_integer(writedata) = -6) then
+                report "test 5 réussi";
+            else
+                report "test 5 échoué";
+            end if;
+            
+            -- Test #6 - or
+            when 65 => if(conv_integer(writedata) = 3) then
+                report "test 6 réussi";
+            else
+                report "test 6 échoué";
+            end if;
+            
+            -- Test #7 - slt
+            when 66 => if(conv_integer(writedata) = 1) then
+                report "test 7 réussi";
+            else
+                report "test 7 échoué";
+            end if;
+            
+            -- Test #8 - sll
+            when 67 => if(conv_integer(writedata) = 12) then
+                report "test 8 réussi";
+            else
+                report "test 8 échoué";
+            end if;
+            
+            -- Test #9 - sub
+            when 68 => if(conv_integer(writedata) = 11) then
+                report "test 9 réussi";
+            else
+                report "test 9 échoué";
+            end if;
+            
+            -- Test #10 - lw
+            when 69 => if(conv_integer(writedata) = 11) then
+                report "test 10 réussi";
+            else
+                report "test 10 échoué";
+            end if;
+            
+            -- Test #11 - andi
+            when 70 => if(conv_integer(writedata) = 9) then
+                report "test 11 réussi";
+            else
+                report "test 11 échoué";
+            end if;
+            
+            -- Test #12 - ori
+            when 71 => if(conv_integer(writedata) = 11) then
+                report "test 12 réussi";
+            else
+                report "test 12 échoué";
+            end if;
+            
+            -- Test #13 - beq
+            when 72 => if(conv_integer(writedata) = 14) then
+                report "test 13 réussi";
+            else
+                report "test 13 échoué";
+            end if;
+            
+            -- Test #14 - beq
+            when 73 => if(conv_integer(writedata) = 1) then
+                report "test 14 réussi";
+            else
+                report "test 14 échoué";
+            end if;
+            
+            -- Test #15 - j
+            when 74 => if(conv_integer(writedata) = 1) then
+                report "test 15 réussi";
+            else
+                report "test 15 échoué";
+            end if;
+            
+            -- Test #16 - jal
+            when 75 => if(conv_integer(writedata) = 1) then
+                report "test 16 réussi";
+            else
+                report "test 16 échoué";
+            end if;
+            
+            -- Test #17 - jal
+            when 76 => if(conv_integer(writedata) = ) then -- TODO: figure out what value is
+                report "test 17 réussi";
+            else
+                report "test 17 échoué";
+            end if;
+            
+            -- Test #18 - bNal and jr
+            when 77 => if(conv_integer(writedata) = -1) then
+                report "test 18 réussi";
+            else
+                report "test 18 échoué";
+            end if;
+            
+            -- Test #19 - bNal
+            when 78 => if(conv_integer(writedata) = ) then -- TODO: figure out what value is
+                report "test 19 réussi";
+            else
+                report "test 19 échoué";
+            end if;
+            
+            -- Test #20 - bNal
+            when 79 => if(conv_integer(writedata) = -1) then
+                report "test 20 réussi";
+            else
+                report "test 20 échoué";
+            end if;
+            
+            -- Test #21 - bNal
+            when 80 => if(conv_integer(writedata) = ) then -- TODO: figure out what value is
+                report "test 21 réussi";
+            else
+                report "test 21 échoué";
+            end if;
 	    when others => report "";
 	  end case;       
 	end if;
