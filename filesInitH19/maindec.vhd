@@ -28,8 +28,8 @@ process(op) begin
 		when "001000" => controls <= "100010000000000"; -- ADDI
 		when "000010" => controls <= "000000000001000"; -- J
 		when "001100" => controls <= "100100000000010"; -- andi
-		when "000011" => controls <= "110000001001000"; --jal
-		when "001101" => controls <= "100100000000011"; --ori
+		when "000011" => controls <= "110000001001000"; -- jal
+		when "001101" => controls <= "100100000000011"; -- ori
 		when "100100" => controls <= "010000101000000"; -- bNal
 		when others => controls <= "---------------"; -- illegal op
 	end case;
