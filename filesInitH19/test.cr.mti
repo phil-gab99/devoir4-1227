@@ -1,4 +1,12 @@
-{C:/Users/pgabr/Google Drive/Computer Science/Semester 2/Architecture des ordinateurs 1/Devoirs/Devoir 4/filesInitH19/devoir4-1227/filesInitH19/zeroext.vhd} {1 {vcom -work work -2002 -explicit {C:/Users/pgabr/Google Drive/Computer Science/Semester 2/Architecture des ordinateurs 1/Devoirs/Devoir 4/filesInitH19/devoir4-1227/filesInitH19/zeroext.vhd}
+{C:/Users/pgabr/Google Drive/Computer Science/Semester 2/Architecture des ordinateurs 1/Devoirs/Devoir 4/filesInitH19/devoir4-1227/filesInitH19/maindec.vhd} {1 {vcom -work work -2002 -explicit {C:/Users/pgabr/Google Drive/Computer Science/Semester 2/Architecture des ordinateurs 1/Devoirs/Devoir 4/filesInitH19/devoir4-1227/filesInitH19/maindec.vhd}
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity maindec
+-- Compiling architecture behave of maindec
+
+} {} {}} {C:/Users/pgabr/Google Drive/Computer Science/Semester 2/Architecture des ordinateurs 1/Devoirs/Devoir 4/filesInitH19/devoir4-1227/filesInitH19/zeroext.vhd} {1 {vcom -work work -2002 -explicit {C:/Users/pgabr/Google Drive/Computer Science/Semester 2/Architecture des ordinateurs 1/Devoirs/Devoir 4/filesInitH19/devoir4-1227/filesInitH19/zeroext.vhd}
 Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
 -- Loading package STANDARD
 -- Loading package TEXTIO
@@ -86,15 +94,6 @@ Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
 -- Compiling entity mux4
 -- Compiling architecture struct of mux4
 
-} {} {}} {C:/Users/pgabr/Google Drive/Computer Science/Semester 2/Architecture des ordinateurs 1/Devoirs/Devoir 4/filesInitH19/devoir4-1227/filesInitH19/datapath.vhd} {1 {vcom -work work -2002 -explicit {C:/Users/pgabr/Google Drive/Computer Science/Semester 2/Architecture des ordinateurs 1/Devoirs/Devoir 4/filesInitH19/devoir4-1227/filesInitH19/datapath.vhd}
-Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
--- Loading package STANDARD
--- Loading package TEXTIO
--- Loading package std_logic_1164
--- Loading package std_logic_arith
--- Compiling entity datapath
--- Compiling architecture struct of datapath
-
 } {} {}} {C:/Users/pgabr/Google Drive/Computer Science/Semester 2/Architecture des ordinateurs 1/Devoirs/Devoir 4/filesInitH19/devoir4-1227/filesInitH19/testbench.vhd} {1 {vcom -work work -2002 -explicit {C:/Users/pgabr/Google Drive/Computer Science/Semester 2/Architecture des ordinateurs 1/Devoirs/Devoir 4/filesInitH19/devoir4-1227/filesInitH19/testbench.vhd}
 Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
 -- Loading package STANDARD
@@ -104,6 +103,16 @@ Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
 -- Loading package STD_LOGIC_UNSIGNED
 -- Compiling entity testbench
 -- Compiling architecture test of testbench
+
+} {} {}} {C:/Users/pgabr/Google Drive/Computer Science/Semester 2/Architecture des ordinateurs 1/Devoirs/Devoir 4/filesInitH19/devoir4-1227/filesInitH19/imem.vhd} {1 {vcom -work work -2002 -explicit {C:/Users/pgabr/Google Drive/Computer Science/Semester 2/Architecture des ordinateurs 1/Devoirs/Devoir 4/filesInitH19/devoir4-1227/filesInitH19/imem.vhd}
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling entity imem
+-- Compiling architecture behave of imem
 
 } {} {}} {C:/Users/pgabr/Google Drive/Computer Science/Semester 2/Architecture des ordinateurs 1/Devoirs/Devoir 4/filesInitH19/devoir4-1227/filesInitH19/adder.vhd} {1 {vcom -work work -2002 -explicit {C:/Users/pgabr/Google Drive/Computer Science/Semester 2/Architecture des ordinateurs 1/Devoirs/Devoir 4/filesInitH19/devoir4-1227/filesInitH19/adder.vhd}
 Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012

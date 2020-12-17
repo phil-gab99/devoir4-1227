@@ -148,7 +148,7 @@ process (clk) begin
             end if;
             
             -- Test #17 - jal
-            when 76 => if(conv_integer(writedata) = 37) then
+            when 76 => if(conv_integer(writedata) = 148) then
                 report "test 17 réussi";
             else
                 report "test 17 échoué";

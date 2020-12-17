@@ -69,9 +69,9 @@ architecture struct of datapath is
 	
 begin
 -- next PC logic
-	pcjump <= pcplus4 (31 downto 28) & instr (25 downto 0) & "00";
 	pcreg: flopr generic map(32) port map(clk, reset, pcnext, pc);
 	pcadd1: adder port map(pc, X"00000004", pcplus4);
+    pcjump <= pcplus4 (31 downto 28) & instr (25 downto 0) & "00";
 	immsh: sl2 port map(signimm, signimmsh);
 	pcadd2: adder port map(pcplus4, signimmsh, pcbranch);
 	pcbrmux: mux2 generic map(32) port map(pcplus4, pcbranch, pcsrc, pcnextbr);
